@@ -2957,24 +2957,45 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
-const Jsxheading = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "hello world!!!React sk "
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Welcome to learn React"
     }, void 0, false, {
         fileName: "app.js",
-        lineNumber: 5,
-        columnNumber: 12
+        lineNumber: 4,
+        columnNumber: 21
     }, undefined);
-};
-_c = Jsxheading;
+_c = Title;
+const Jsxheading = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 9,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "hello world!!!React sk "
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 10,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "app.js",
+        lineNumber: 8,
+        columnNumber: 5
+    }, undefined);
+_c1 = Jsxheading;
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Jsxheading, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 8,
+    lineNumber: 14,
     columnNumber: 13
 }, undefined));
-var _c;
-$RefreshReg$(_c, "Jsxheading");
+var _c, _c1;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "Jsxheading");
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
